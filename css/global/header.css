@@ -24,17 +24,13 @@
 }
 
 .header-menu a{
-    color: #213430;
     display: inline-block;
     padding: 16px 0px;
-    font-family: 'Poppins';
-    font-weight: 600;
-    font-size: 16px;
     position: relative;
 }
 
 .header-menu a:hover{
-    color: #ECA30C;
+    color: var(--cor-1);
 }
 
 .header-menu a::after{
@@ -42,7 +38,7 @@
     display: block;
     height: 3px;
     width: 0px;
-    background: #ECA30C;
+    background: var(--cor-1);
     border-radius: 50px;
     margin-top: 8px;
     transition: 0.3s;

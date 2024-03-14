@@ -1,0 +1,24 @@
+:root{
+    --cor-1: #ECA30C;
+    --cor-2: #F1FAF3;
+    --cor-3: #009368;
+    --cor-4: #6F7775;
+    --cor-5: #213430;
+}
+
+
+.verde{
+    color: var(--cor-3);
+}
+
+.amarelo{
+    color: var(--cor-1);
+}
+
+.cinza{
+    color: var(--cor-4);
+}
+
+.preto{
+    color: var(--cor-5);
+}
