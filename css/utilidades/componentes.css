@@ -1,0 +1,42 @@
+/*Botão*/
+.botao{
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: #ECA30C;
+    color: #fff;
+    border-radius: 4px;
+    text-transform: uppercase;
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.375;
+}
+
+.botao img{
+    display: inline-block;
+    width: 14px;
+}
+
+.botao:hover{
+    background-color: #dd9504;
+}
+
+@media (max-width: 1000px){
+    .botao{
+        font-size: 14px;
+    }
+
+    .botao img{
+        max-width: 12px;
+    }
+}
+
+@media (max-width: 700px){
+    .botao{
+        font-size: 12px;
+    }
+
+    .botao img{
+        max-width: 10px;
+    }
+}
