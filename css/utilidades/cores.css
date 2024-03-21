@@ -6,6 +6,7 @@
     --cor-5: #213430;
     --cor-6: #ffffff;
     --cor-7: #21343041;
+    --cor-8: #E5EBE1;
 }
 
 
@@ -19,6 +20,10 @@
 
 .cinza{
     color: var(--cor-4);
+}
+
+.cinza-claro{
+    color: var(--cor-8);
 }
 
 .preto{

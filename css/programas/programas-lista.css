@@ -6,16 +6,11 @@
     margin-top: 120px;
     padding-top: 120px;
     padding-bottom: 120px;
+    text-align: center;
 }
 
 .programas-lista h2{
     margin-bottom: 24px;
-    max-width: 1200px;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-    padding-left: 20px;
-    padding-right: 20px;
 }
 
 .programas-lista ul{
@@ -33,17 +28,11 @@
 }
 
 .programas-lista h3{
-    padding: 10px;
     text-align: center;
     align-self: center;
 }
 
-.detalhe-linha{
-    background: var(--cor-1);
-    height: 3px;
-    width: 60px;
-    border-radius: 48px;
-    display: block;
+.programas-lista span{
     margin: 0px auto 24px auto;
 }
 
@@ -75,11 +64,11 @@
 }
   
 .next {
-    right: 60px;
+    right: 30px;
 }
 
 .prev{
-    left: 60px;
+    left: 30px;
 }
 
 .prev:hover{
@@ -144,6 +133,7 @@
 
     .programas-lista h3{
         font-size: 18px;
+        padding: 10px;
     }
 }
 
@@ -171,7 +161,7 @@
     .programas-lista ul{
         gap: 20px;
     }
-    
+}
 
     @media (max-width: 600px) {
         .programas-lista li{

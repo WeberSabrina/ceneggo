@@ -15,7 +15,7 @@
 </head>
 <body>
     
-    <header class="header">   
+    <header class="header container">   
         <div class="header-logo">
             <a href="./">
                 <img src="./img/logos/ceneggo.svg" alt="Ceneggo">
@@ -41,23 +41,23 @@
         <img src="./img/banners/banner-ceneggo.jpg" alt="">
     </div>
 
-    <main class="introducao">
+    <main class="introducao container">
         <div class="introducao-imagens">
             <span><img src="./img/icones/caridade.svg" alt=""></span>
             <img src="./img/inicial/img1.jpg" alt="Menino negro sentando na calçada">
              <img class="imagem-secundaria" src="img/inicial/img2.jpg" alt="Duas crianças sorrindo e se abraçando">
         </div>
         <div class="introducao-conteudo">
-            <p class="conteudo-detalhe detalhe verde">Sobre nós</p>
+            <p class="introducao-detalhe detalhe verde">Sobre nós</p>
             <h1 class="titulo1 preto">Centro de cidadania negra do estado de Goiás</h1>
-            <span></span>
+            <span class="detalhe-linha"></span>
             <p class="texto cinza">A entidade CENEG-Goiás - fundada em 2003 é uma instituição civil, sem fins lucrativos de caráter CULTURAL, AMBIENTAL, EDUCACIONAL E DE ASSISTÊNCIA SOCIAL, reconhecida com títulos de Utilidade Pública Federal, Estadual e Municipal.</p>
             <a class="botao" href="./sobre.html">Saiba mais <img src="./img/icones/coracao-botao.svg" alt=""></a>
         </div>
     </main>
 
     <article class="programas-bg">
-        <div class="programas-lista slides">
+        <div class="programas-lista slides container">
             <h2 class="titulo2 preto ">Nossos Programas</h2>
             <span class="detalhe-linha"></span>
 
@@ -105,6 +105,24 @@
                 <span class="dot" onclick="updateDots(5)"></span>
             </div>
         </div>    
+    </article>
+
+    <article class="voluntarios-bg">
+        <span class="linha-bg"></span>
+        <div class="voluntarios container">
+            <div class="voluntarios-conteudo">
+                <p class="voluntario-detalhe detalhe verde">Seja um voluntário</p>
+                <h2 class="titulo4 preto">Ajude-nos a fazer a diferença: voluntarie-se!</h2>
+                <span class="detalhe-linha"></span>
+                <p class="texto cinza">Se você dispõe da vontade de amar e de servir o próximo, e se identifica com a magnitude desta causa social contribua com sua experiência de vida e sua dedicação prestando serviços voluntários às crianças e adolescentes de baixa renda através do Projeto Semear.</p>
+                <a class="botao" href="./voluntarios.html">Saiba mais <img src="./img/icones/coracao-botao.svg" alt="">
+                </a>
+            </div>
+            <div class="voluntarios-imagem">
+                <img src="./img/inicial/img3.jpg" alt="Duas pessoas sendo voluntárias">
+            </div>
+        </div>
+
     </article>
 
     <script src="./javascript/script.js"></script>
