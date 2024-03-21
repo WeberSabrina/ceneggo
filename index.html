@@ -21,6 +21,7 @@
                 <img src="./img/logos/ceneggo.svg" alt="Ceneggo">
             </a>
         </div>    
+        
         <nav aria-label="primaria">
             <ul class="header-menu menu preto">
                 <li><a href="./sobre.html">Sobre</a></li>
@@ -43,16 +44,69 @@
     <main class="introducao">
         <div class="introducao-imagens">
             <span><img src="./img/icones/caridade.svg" alt=""></span>
-            <img src="./img/inicial/img1.jpg" alt="menino negro sentando na calçada.">
-             <img class="imagem-secundaria" src="img/inicial/img2.jpg" alt="duas crianças sorrindo e se abraçando.">
+            <img src="./img/inicial/img1.jpg" alt="Menino negro sentando na calçada">
+             <img class="imagem-secundaria" src="img/inicial/img2.jpg" alt="Duas crianças sorrindo e se abraçando">
         </div>
         <div class="introducao-conteudo">
             <p class="conteudo-detalhe detalhe verde">Sobre nós</p>
-            <h1 class="titulo preto">Centro de cidadania negra do estado de Goiás</h1>
+            <h1 class="titulo1 preto">Centro de cidadania negra do estado de Goiás</h1>
             <span></span>
             <p class="texto cinza">A entidade CENEG-Goiás - fundada em 2003 é uma instituição civil, sem fins lucrativos de caráter CULTURAL, AMBIENTAL, EDUCACIONAL E DE ASSISTÊNCIA SOCIAL, reconhecida com títulos de Utilidade Pública Federal, Estadual e Municipal.</p>
             <a class="botao" href="./sobre.html">Saiba mais <img src="./img/icones/coracao-botao.svg" alt=""></a>
         </div>
     </main>
+
+    <article class="programas-bg">
+        <div class="programas-lista slides">
+            <h2 class="titulo2 preto ">Nossos Programas</h2>
+            <span class="detalhe-linha"></span>
+
+            <ul>
+                <li>
+                    <a href="./programas.html">
+                        <img src="img/programas/costura-lista.jpg" alt="Mulheres tendo aula de costura">
+                        <h3 class="titulo3 preto">Escola de corte e costura</h3>
+                    </a>
+                </li>
+                <li>
+                    <a href="./programas.html">
+                        <img src="./img/programas/protecao-lista.jpg" alt="Duas pessoas cuidando de um idoso">
+                        <h3 class="titulo3 preto">Afro proteção </h3>
+                    </a>
+                </li>
+                <li>
+                    <a href="./programas.html">
+                        <img src="img/programas/breaking-lista.jpg" alt="Homem dançando breaking e pessoas assistindo">
+                        <h3 class="titulo3 preto">Escola de breaking de Goiânia</h3>
+                    </a>
+                </li>
+                <li>
+                    <a href="./programas.html">
+                        <img src="./img/programas/aprendiz-lista.jpg" alt="Pessoar reunidas em uma palestra">
+                        <h3 class="titulo3 preto">Comunidade aprendiz</h3>
+                    </a>
+                </li>
+                <li>
+                    <a href="./programas.html">
+                        <img src="img/programas/juventude-lista.jpg" alt="Homem dançando breaking e pessoas assistindo">
+                        <h3 class="titulo3 preto">Centro de referência da juventude</h3>
+                    </a>
+                </li>
+            </ul>
+
+            <button class="prev" onclick="plusSlides(-1)">&#10094;</button>
+            <button class="next" onclick="plusSlides(1)">&#10095;</button>
+
+            <div class="dots-container">
+                <span class="dot" onclick="updateDots(1)"></span>
+                <span class="dot" onclick="updateDots(2)"></span>
+                <span class="dot" onclick="updateDots(3)"></span>
+                <span class="dot" onclick="updateDots(4)"></span>
+                <span class="dot" onclick="updateDots(5)"></span>
+            </div>
+        </div>    
+    </article>
+
+    <script src="./javascript/script.js"></script>
 </body>
 </html>

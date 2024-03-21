@@ -4,6 +4,8 @@
     --cor-3: #009368;
     --cor-4: #6F7775;
     --cor-5: #213430;
+    --cor-6: #ffffff;
+    --cor-7: #21343041;
 }
 
 
@@ -21,4 +23,16 @@
 
 .preto{
     color: var(--cor-5);
+}
+
+.branco{
+    color: var(--cor-6);
+}
+
+.verde-bg{
+    color: var(--cor-2);
+}
+
+.blur{
+    color: var(--cor-7);
 }
