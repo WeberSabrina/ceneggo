@@ -14,8 +14,9 @@
 /*programas*/
 @import "./programas/programas-lista.css";
 
-/*voluntario*/
+/*voluntarios e parceiros*/
 @import "./voluntario/voluntarios.css";
+@import "./voluntario/parceiros.css";
 
 
 
