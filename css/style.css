@@ -18,6 +18,9 @@
 @import "./voluntario/voluntarios.css";
 @import "./voluntario/parceiros.css";
 
+/*Doações*/
+@import "./doacao/doacao.css";
+
 
 
 

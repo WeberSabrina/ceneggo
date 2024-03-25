@@ -1,0 +1,63 @@
+.doacao-bg{
+    background-image: url(../../img/banners/banner-footer.jpg);
+    background-repeat: no-repeat;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    position: relative;
+}
+.doacao-bg span img{
+    position: absolute;
+    right: 140px;
+    top: -70px;
+}
+.doacao{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 120px;
+    align-items: center;
+}
+
+.doacao-conteudo p{
+    margin-bottom: 18px;
+}
+
+
+
+@media (max-width: 1200px){
+    .doacao-bg{
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+
+    .doacao{
+        gap: 60px;
+    }
+
+    .doacao-bg span img{
+        right: 40px;
+    }
+}
+@media (max-width: 1000px){
+    .doacao{
+        grid-template-columns: 2fr 1fr;
+    }
+    
+}
+
+@media (max-width: 700px){
+    .doacao{
+        grid-template-columns: 1fr;
+        gap: 24px;
+    }
+    
+}
+
+@media (max-width: 500px){
+    .doacao-conteudo p{
+        font-size: 18px;
+    }
+
+    .doacao-bg span img{
+        display: none;
+    }
+}
