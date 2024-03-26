@@ -1,9 +1,9 @@
 .doacao-bg{
     background-image: url(../../img/banners/banner-footer.jpg);
     background-repeat: no-repeat;
-    padding-top: 120px;
-    padding-bottom: 120px;
     position: relative;
+    padding-top: 80px;
+    padding-bottom: 80px;
 }
 .doacao-bg span img{
     position: absolute;
@@ -25,8 +25,8 @@
 
 @media (max-width: 1200px){
     .doacao-bg{
-        padding-top: 60px;
-        padding-bottom: 60px;
+        padding-top: 30px;
+        padding-bottom: 30px;
     }
 
     .doacao{
