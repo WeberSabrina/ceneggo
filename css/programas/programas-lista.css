@@ -43,6 +43,10 @@
     box-shadow: #21343041 0px 10px 25px;
 }
 
+.programas-lista li:hover{
+    border: solid 1px var(--cor-1);
+}
+
 .programas-lista a{
     display: block;
 }

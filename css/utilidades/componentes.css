@@ -59,3 +59,28 @@
     border-radius: 48px;
     display: block;
 }
+
+
+/*titulos internos*/
+.titulo-bg{
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color: var(--cor-2);
+}
+
+.titulo h1{
+    margin-bottom: 24px;
+    text-transform: capitalize;
+}
+
+@media (max-width: 800px){
+    .titulo-bg{
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    .titulo h1{
+        font-size: 24px;
+        margin-bottom: 14px;
+    }
+}
