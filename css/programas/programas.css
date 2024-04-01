@@ -1,0 +1,76 @@
+.programas{
+    max-width: 850px;
+    margin: 120px auto;
+}
+
+.programas li{
+    position: relative;
+}
+
+.programas img{
+    border-radius: 48px;
+    margin-bottom: 40px;
+}
+
+.programas h2{
+    margin-bottom: 24px;
+}
+
+.programas span{
+    margin-bottom: 14px;
+}
+
+.programas p{
+    margin-bottom: 60px;
+}
+
+.logo{
+    position: absolute;
+    right: 0px;
+    top: 300px;
+}
+
+
+
+@media (max-width: 800px){
+    .programas{
+        margin: 60px auto;
+    }
+
+    .logo{
+        width: 130px;
+        top: 250px;
+    }
+
+}
+
+@media (max-width: 700px){
+    .programas p{
+        font-size: 14px;
+    }
+
+    .logo{
+        top: 230px;
+    }
+
+}
+
+@media (max-width: 650px){
+    .logo{
+        top: 200px;
+        width: 110px;
+    }
+
+}
+
+@media (max-width: 600px){
+    .logo{
+        display: none;
+    }
+
+    .programas img{
+        margin-bottom: 20px;
+    }
+
+}
+
