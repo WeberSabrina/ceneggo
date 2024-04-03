@@ -18,8 +18,10 @@
 @import "./programas/programas.css";
 
 /*voluntarios e parceiros*/
-@import "./voluntario/voluntarios.css";
-@import "./voluntario/parceiros.css";
+@import "./equipe/voluntarios.css";
+@import "./equipe/parceiros.css";
+/* voluntários página interna*/
+@import "./equipe/voluntariosinterno.css";
 
 /*Doações*/
 @import "./doacao/doacao.css";

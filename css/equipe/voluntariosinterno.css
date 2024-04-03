@@ -1,0 +1,67 @@
+/*Algumas classes foram reaproveitadas de voluntarios na página inicial*/
+#voluntarios .voluntarios{
+    padding-top: 240px;
+    padding-bottom: 240px;
+    gap: 100px;
+}
+
+.voluntarios-citacao{
+    background-color: var(--cor-2);
+    padding: 0px;
+    border-radius: 12px;
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 14px;
+    margin-bottom: 40px;
+    padding: 38px 24px 0px 24px;
+}
+
+.voluntarios-circulo1{
+    position: absolute;
+    bottom: -110px;
+    left: 10px;
+}
+
+.imagem-voluntarios1{
+    position: relative;
+}
+
+.voluntarios-circulo2{
+    position: absolute;
+    bottom: -700px;
+    right: 10px;
+}
+
+.imagem-voluntarios2{
+    position: relative;
+}
+
+
+
+@media (max-width: 1200px){
+    .voluntarios-circulo1, 
+    .voluntarios-circulo2{
+        display: none;
+    }
+
+    #voluntarios .voluntarios{
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+}
+
+@media (max-width: 750px){
+    
+    #voluntarios-conteudo{
+        display: none;
+    }
+    
+    .imagem-voluntarios2{
+        display: none;
+    }
+
+    #voluntarios .voluntarios{
+        gap: 20px;
+    }
+    
+}
