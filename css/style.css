@@ -2,29 +2,40 @@
 @import "./utilidades/tipografia.css";
 @import "./utilidades/cores.css";
 
+
 @import "./global/header.css";
 @import "./global/footer.css";
+
 
 /*Componentes gerais*/
 @import "./utilidades/componentes.css";
 
+
 /*Home*/
 @import "./home/introducao.css";
 @import "./home/bannercarrosel.css";
+
 
 /*programas*/
 @import "./programas/programas-lista.css";
 /*programas página interna*/
 @import "./programas/programas.css";
 
-/*voluntarios e parceiros*/
+
+/* voluntarios e parceiros*/
 @import "./equipe/voluntarios.css";
 @import "./equipe/parceiros.css";
 /* voluntários página interna*/
 @import "./equipe/voluntariosinterno.css";
+/* Parceiros página interna*/
+@import "./equipe/parceirosinterno.css";
+
 
 /*Doações*/
+@import "./doacao/doacoes.css";
+/*Doação página interna*/
 @import "./doacao/doacao.css";
+
 
 /*Contato*/
 @import "./contato/contato.css";
