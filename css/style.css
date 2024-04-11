@@ -40,8 +40,13 @@
 /*Contato*/
 @import "./contato/contato.css";
 
+
 /*Sobre*/
 @import "./sobre/sobre.css";
+
+
+/*Galeria página interna*/
+@import "./galeria/galeria.css";
 
 
 
