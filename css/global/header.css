@@ -45,3 +45,11 @@
 .header-menu a:hover::after{
     width: 100%;
 }
+
+
+@media (max-width: 450px){
+    .header{
+        flex-wrap: nowrap;
+        gap: 10px;
+    }
+}

@@ -1,3 +1,4 @@
+/*slide de programas na pág inicial*/
 let slideIndex = 0;
 showSlides();
 
@@ -37,11 +38,3 @@ function showSlides() {
 function updateDots(n) {
   currentSlide(n);
 }
-
-
-
-
-
-
-
-
