@@ -1,6 +1,4 @@
-/*slide de programas na pág inicial*/
 let slideIndex = 0;
-showSlides();
 
 function plusSlides(n) {
   showSlides(slideIndex += n);
@@ -15,26 +13,32 @@ function showSlides() {
   const slides = document.querySelectorAll('.slides li');
   const dots = document.querySelectorAll('.dot');
   
+  // Oculta todos os slides
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+
+  // Define os slides a serem exibidos com base no tamanho da tela
   if (window.innerWidth < 600) {
-    // Se a largura da tela for menor que 600px, mostrar apenas 1 imagem
-    for (i = 0; i < slides.length; i++) {
-      slides[i].style.display = "none";
-    }
     slides[slideIndex % slides.length].style.display = "block";
   } else {
-    // Se a largura da tela for maior ou igual a 600px, mostrar 3 imagens
-    for (i = 0; i < slides.length; i++) {
-      slides[i].style.display = "none";
-    }
     for (i = slideIndex; i < slideIndex + 3; i++) {
       slides[i % slides.length].style.display = "block";
     }
   }
   
+  // Remove a classe 'active' de todas as bolinhas
   dots.forEach(dot => dot.classList.remove('active'));
-  dots[slideIndex].classList.add('active');
+
+  // Adiciona 'active' apenas à bolinha correspondente ao slide atual
+  dots[slideIndex % dots.length].classList.add('active');
 }
 
 function updateDots(n) {
   currentSlide(n);
 }
+
+// Inicia a exibição dos slides
+showSlides();
+
+

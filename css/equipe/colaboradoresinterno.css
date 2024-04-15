@@ -1,0 +1,70 @@
+
+#parceiros .parceiros-lista{
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#parceiros .parceiros-lista img{
+    width: 250px;
+}
+
+#parceiros .parceiros-lista a img{
+    width: initial;
+}
+
+.parceiros-citacao{
+    margin: 0 auto;
+    margin-bottom: 120px;
+    max-width: 700px;
+    background-color: var(--cor-2);
+    padding: 60px;
+    border-radius: 4px;
+    position: relative;
+}
+
+.parceiros-citacao p{
+    margin-bottom: 14px;
+}
+
+.parceiros-citacao h2{
+    margin-bottom: 24px;
+}
+
+.parceiros-citacao span{
+    margin-bottom: 14px;
+}
+
+.citacao-coracao{
+    position: absolute;
+    top: -60px;
+    right: 0px;
+}
+
+
+@media (max-width: 600px){
+    #parceiros .parceiros-lista img{
+        width: 200px;
+    }
+
+    #parceiros .parceiros-lista{
+        gap: 10px;
+    }
+
+    .parceiros-citacao{
+        margin-bottom: 60px;
+        padding: 30px;
+    }
+
+    .citacao-coracao{
+        display: none;
+    }
+
+    .parceiros-citacao h2{
+        font-size: 24px;
+    }
+
+    .parceiros-citacao p{
+       font-size: 14px;
+    }
+
+}
