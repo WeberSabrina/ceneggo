@@ -3,10 +3,6 @@
     overflow: hidden;
 }
 
-.sobre-imagem img{
-    width: max-content;
-}
-
 .sobre-bg{
     background-color: var(--cor-2);
     padding-top: 100px;
