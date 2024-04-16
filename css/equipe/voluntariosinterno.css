@@ -8,7 +8,7 @@
 .voluntarios-citacao{
     background-color: var(--cor-2);
     padding: 0px;
-    border-radius: 12px;
+    border-radius: 24px;
     display: grid;
     grid-template-columns: auto auto;
     gap: 14px;
@@ -64,4 +64,14 @@
         gap: 20px;
     }
     
+}
+
+@media (min-width: 1400px){
+    .voluntarios-circulo1{
+        display: none;
+    }
+
+    .voluntarios-circulo2{
+        display: none;
+    }
 }

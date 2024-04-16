@@ -32,7 +32,7 @@
 }
 
 .introducao-imagens img{
-    border-radius: 48px;
+    border-radius: 24px;
 }
 
 .introducao-imagens .imagem-secundaria{
@@ -97,13 +97,5 @@
     .introducao-imagens{
         padding-top: 40px;
     }
-    
-    /*
-    .introducao-imagens img{
-        height: 200px;
-        width: 100%;
-        
-    }
-    */
-    
+      
 }
