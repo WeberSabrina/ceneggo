@@ -40,8 +40,10 @@
     background-color: var(--cor-6);
     padding: 0px 0px 20px 0px;
     border-radius: 48px;
-    box-shadow: #21343041 0px 10px 25px;
+    box-shadow: #508a7d41 0px 10px 25px;
 }
+
+/*box-shadow: #21343041 0px 10px 25px;*/
 
 .programas-lista li:hover{
     border: solid 1px var(--cor-1);
