@@ -85,14 +85,6 @@
 }
 
 @media (max-width: 1000px){
-    .sobre-imagem{
-        padding-top: 60px;
-    }
-
-    .sobre-imagem img{
-        margin-bottom: 60px;
-    }
-
     .sobre-bg{
         margin-bottom: 50px;
     }

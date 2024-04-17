@@ -20,6 +20,7 @@
         z-index: 300;
     }
 
+
     [data-menu="button"]::before {
         margin-right: 4px;
         content: '';
@@ -53,6 +54,10 @@
 }
 
 .header-menu a:hover{
+    color: var(--cor-6);
+}
+
+.header-menu a.ativo{
     color: var(--cor-6);
 }
 
