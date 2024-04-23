@@ -71,6 +71,26 @@
     margin: 0 auto;
 }
 
+.sobre-parceiros h3{
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.sobre-parceiros span{
+    margin: 0 auto;
+    margin-bottom: 60px;
+}
+
+.sobre-parceiros ul{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 60px;
+}
+
+.sobre-parceiros{
+    margin-bottom: 120px;
+}
+
 
 
 @media (max-width: 1200px){
@@ -96,9 +116,22 @@
     .sobre-citacao{
         margin-bottom: 60px;
     }
+
+    .sobre-parceiros{
+        margin-bottom: 60px;
+    }
+
+    .sobre-parceiros ul{
+        gap: 40px;
+    }
 }
 
 @media (max-width: 800px){
+    .sobre-bg{
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    
 
     .sobre-conteudo .sobre-detalhe{
         font-size: 16px;
@@ -114,5 +147,9 @@
 
     .sobre-citacao img{
         display: none;
+    }
+
+    .sobre-parceiros ul{
+        gap: 20px;
     }
 }
